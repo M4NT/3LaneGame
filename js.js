@@ -16,13 +16,20 @@ function checar() {
 }
 
 function mudarConteudo1() {
+	document.getElementById('dica1').innerHTML = 'É mamífero';
+	document.getElementById('dica2').innerHTML = 'Dinossauro';
+	document.getElementById('dica3').innerHTML = 'Órfão';
+}
+
+function mudarConteudo2() {
 	document.getElementById('dica1').innerHTML = 'Tem rabo';
 	document.getElementById('dica2').innerHTML = 'É Único';
 	document.getElementById('dica3').innerHTML = 'Ash deu um soco';
 }
 
-function mudarConteudo2() {
+function mudarConteudo3() {
 	document.getElementById('dica1').innerHTML = 'Tipo Planta';
 	document.getElementById('dica2').innerHTML = 'Tem rabo';
 	document.getElementById('dica3').innerHTML = 'É inicial';
 }
+ teste
