@@ -6,25 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="js.js"> </script>
-    <title>3 Hint Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>3 PokéHint Game</title>
 </head>
 <body>
-    <h1>3 Hint Game</h1>
-    <h2>Quem é esse pokemon?!</h2>
-    <button onclick=mudarConteudo1()>Pokemon 1</button>
-    <button onclick=mudarConteudo2()>Pokemon 2</button>
-    <button onclick=mudarConteudo3()>Pokemon 3</button>
+    <section>
+        <div class="logohint"><img src="./img/pokehint logo.png"></div>
+        <div class="card">
+            <div class="tela_fundo">
+                <div class="tela">
+                    <h2>Quem é esse pokemon?!</h2>
+                    <div id="conteudo1">
+                        <h3 id="dica1">1º Dica:<br> Mamífero<br></h3>
+                        <h3 id="dica2">2º Dica:<br> Dinossauro<br></h3>
+                        <h3 id="dica3">3º Dica:<br> Órfão<br></h3>
+                    </div>
 
-    <div id="conteudo1">
-        <h3 id="dica1">Mamífero<br></h3>
-        <h3 id="dica2">Dinossauro<br></h3>
-        <h3 id="dica3">Órfão<br></h3>
-    </div>
+                    <div>
+                        <input id="resposta" class="caixa_texto"></input>
+                        <button onclick=checar()>Conferir</button>
+                    </div>
 
-    <div>
-        <input id="resposta"></input>
-        <button onclick=checar()>Conferir</button>
-    </div>
+                    <button onclick=mudarConteudo1()>Pokemon 1</button>
+                    <button onclick=mudarConteudo2()>Pokemon 2</button>
+                    <button onclick=mudarConteudo3()>Pokemon 3</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>

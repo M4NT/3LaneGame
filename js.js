@@ -4,32 +4,28 @@ function checar() {
 	var respostaCerta2 = 'mewtwo';
 	var respostaCerta3 = 'treecko';
 
-	if (
-		respostaUsuario.toLowerCase() === respostaCerta1 ||
-		respostaCerta2 ||
-		respostaCerta3
-	) {
+	if ((respostaUsuario.toLowerCase() == respostaCerta1)||(respostaUsuario.toLowerCase() == respostaCerta2)||(respostaUsuario.toLowerCase() == respostaCerta3)) {
 		alert('Parabéns, você acertou!');
 	} else {
-		alert('Parabéns, você errou!');
+		alert('Você errou, tente novamente!');
 	}
+
 }
 
 function mudarConteudo1() {
-	document.getElementById('dica1').innerHTML = 'É mamífero';
-	document.getElementById('dica2').innerHTML = 'Dinossauro';
-	document.getElementById('dica3').innerHTML = 'Órfão';
+	document.getElementById('dica1').innerHTML = '1º Dica: <br>Mamífero';
+	document.getElementById('dica2').innerHTML = '2º Dica: <br>Dinossauro';
+	document.getElementById('dica3').innerHTML = '3º Dica: <br>Órfão';
 }
 
 function mudarConteudo2() {
-	document.getElementById('dica1').innerHTML = 'Tem rabo';
-	document.getElementById('dica2').innerHTML = 'É Único';
-	document.getElementById('dica3').innerHTML = 'Ash deu um soco';
+	document.getElementById('dica1').innerHTML = '1º Dica: <br>Tem rabo';
+	document.getElementById('dica2').innerHTML = '2º Dica: <br>É Único';
+	document.getElementById('dica3').innerHTML = '3º Dica: <br>Ash deu um soco';
 }
 
 function mudarConteudo3() {
-	document.getElementById('dica1').innerHTML = 'Tipo Planta';
-	document.getElementById('dica2').innerHTML = 'Tem rabo';
-	document.getElementById('dica3').innerHTML = 'É inicial';
+	document.getElementById('dica1').innerHTML = '1º Dica: <br>Tipo Planta';
+	document.getElementById('dica2').innerHTML = '2º Dica: <br>Tem rabo';
+	document.getElementById('dica3').innerHTML = '3º Dica: <br>É inicial';
 }
- teste
