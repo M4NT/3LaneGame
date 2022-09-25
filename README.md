@@ -24,7 +24,7 @@ To clone this application, you will need [Git](https://git-scm.com) installed on
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/M4NT/simposio-producao-industrial-fatec.git
+$ git clone https://github.com/M4NT/3PokeHintGame.git
 
 # To go to the repository
 $ cd simposio-producao-industrial-fatec
