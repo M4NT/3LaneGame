@@ -27,7 +27,7 @@ To clone this application, you will need [Git](https://git-scm.com) installed on
 $ git clone https://github.com/M4NT/3PokeHintGame.git
 
 # To go to the repository
-$ cd simposio-producao-industrial-fatec
+$ cd 3PokeHintGame
 
 # Go to index.html
 # Right click
