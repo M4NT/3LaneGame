@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="img/Game.png"/>
+    <img alt="Logo" src="img/pokehint logo.png"/>
     <br>
 </h1>
 <h4 align="center">
